@@ -33,5 +33,12 @@ echo
 
 NEXT=`expr $RANDOM % $NUMTIPS`
 NEXT=`expr $NEXT + 1`
+if [ $CURTIP == $NEXT ] ; then
+  if [ $NEXT == $NUMTIPS ] ; then
+    NEXT=1
+  else
+    NEXT=`expr $NEXT + 1`
+  fi
+fi
 
 echo $NEXT > ~/.curtip
