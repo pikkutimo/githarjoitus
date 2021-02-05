@@ -1,2 +1,4 @@
 # First tip
+Create new branch names "feature" and switch to using it:
+git checkout -b feature
 
