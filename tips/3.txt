@@ -1,0 +1,3 @@
+# Third tip
+To see only the commits of a certain author:
+git log --author=bob

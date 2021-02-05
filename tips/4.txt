@@ -1,0 +1,3 @@
+#Fourth tip
+replace local changes using the command:
+git checkout -- <filename>
