@@ -1,0 +1,3 @@
+#Tip 9
+Delete local branch
+git branch -d <local_branchname>

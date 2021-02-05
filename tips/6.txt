@@ -1,0 +1,3 @@
+#Sixth tip
+Show helpful guides that come with Git:
+git help -g
