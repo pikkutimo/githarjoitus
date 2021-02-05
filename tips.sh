@@ -33,8 +33,8 @@ echo
 
 NEXT=`expr $RANDOM % $NUMTIPS`
 NEXT=`expr $NEXT + 1`
-if [ $CURTIP == $NEXT ] ; then
-  if [ $NEXT == $NUMTIPS ] ; then
+if [ $CURTIP -eq $NEXT ] ; then
+  if [ $NEXT -eq $NUMTIPS ] ; then
     NEXT=1
   else
     NEXT=`expr $NEXT + 1`

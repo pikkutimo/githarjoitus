@@ -1,3 +1,4 @@
+
 # Tips of the day for bash cli
 
 ## Basic idea
@@ -34,4 +35,6 @@ $ source .bashrc
 ```
 5) No warranty. Do this in your own responsibility.
 
+
+=======
 
