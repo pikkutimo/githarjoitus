@@ -1,0 +1,3 @@
+#Seventhth tip
+Git reset first commit
+git update-ref -d HEAD

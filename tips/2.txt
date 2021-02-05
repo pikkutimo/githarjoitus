@@ -1,2 +1,3 @@
 # Second tip
-
+merge another branch into your active branch:
+git merge <branch>
